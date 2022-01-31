@@ -1,6 +1,6 @@
 /*
- Titre : blink+ elouan bruzek 119
- faire clignoter les LEDS branchées sur les pattes 12 et 13 de la carte L'ARDUINO à une fréquence de 0,5Hz
+ Titre : blink+ 2leds
+ faire clignoter les LEDS branchées sur les pattes 12 et 13 de la carte ARDUINO à une fréquence de 0,5Hz
  */
 
 // Déclaration de variables globales
@@ -24,10 +24,10 @@ void loop()
 {
   digitalWrite(led1,HIGH); // allume la led
   delay(1000); // attendre 1s
-  digitalWrite(led1,LOW); // allume la led
+  digitalWrite(led1,LOW); // éteind la led
   delay(1000); // attendre 1s
   digitalWrite(led2,HIGH); // allume la led
   delay(1000); // attendre 1s
-  digitalWrite(led2,LOW); // allume la led
+  digitalWrite(led2,LOW); // éteind la led
   delay(1000); // attendre 1s
 }
